@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^tools/([a-z0-9-]+)/?$ tool.php?slug=$1 [L,QSA]
